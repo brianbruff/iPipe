@@ -100,11 +100,11 @@
     }
     double dDistance = distance * [self getScaleFactor:self.segDistUnit];
 
-    self.outD.text = self.distance.text;
-    self.outH.text = self.height.text;
+    self.outD.text = [NSString stringWithFormat:@"%.5f",dDistance / 1000];;
+    self.outH.text = [NSString stringWithFormat:@"%.5f",dHeight / 1000];;;
     
     // slope is height / distance
-    self.outS.text = [NSString stringWithFormat:@"%.5f",dHeight / dDistance];
+    self.outS.text = [NSString stringWithFormat:@"%.5f",dHeight / dDistance * 100];
     
     // pythagorus
     self.outL.text = [NSString stringWithFormat:@"%.4f",sqrt(dHeight * dHeight + dDistance * dDistance)/1000];
