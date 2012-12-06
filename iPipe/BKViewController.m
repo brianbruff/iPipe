@@ -21,6 +21,7 @@
     
     UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"iPipeBackgroung.png"]];
     self.view.backgroundColor = background;
+    [self.materialsButton setImage:[UIImage imageNamed:@"DumperButton.png"] forState:UIControlStateNormal];
     
 }
 

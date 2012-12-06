@@ -24,6 +24,9 @@
 		A9A1175916442EB500DCEA7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A1175816442EB500DCEA7E /* Default.png */; };
 		A9A1175B16442F9D00DCEA7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A1175A16442F9D00DCEA7E /* Default@2x.png */; };
 		A9A1175D16442FA400DCEA7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A1175C16442FA400DCEA7E /* Default-568h@2x.png */; };
+		A9DE70541671478500B622DF /* DumperButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DE70531671478400B622DF /* DumperButton.png */; };
+		A9DE7056167149FF00B622DF /* iPipeBlackBackgroung.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */; };
+		A9DE705916714B5400B622DF /* BKQuantityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE705816714B5400B622DF /* BKQuantityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		A9A1175816442EB500DCEA7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		A9A1175A16442F9D00DCEA7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		A9A1175C16442FA400DCEA7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9DE70531671478400B622DF /* DumperButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DumperButton.png; path = Images/DumperButton.png; sourceTree = "<group>"; };
+		A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPipeBlackBackgroung.png; path = Images/iPipeBlackBackgroung.png; sourceTree = "<group>"; };
+		A9DE705716714B5400B622DF /* BKQuantityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKQuantityViewController.h; sourceTree = "<group>"; };
+		A9DE705816714B5400B622DF /* BKQuantityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKQuantityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,8 @@
 		A941C862163C3CCF00E11740 = {
 			isa = PBXGroup;
 			children = (
+				A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */,
+				A9DE70531671478400B622DF /* DumperButton.png */,
 				A902B2E91662D27900FC713D /* iPipeBackgroung.png */,
 				A979F3D0165E70DE001C358E /* 57x57.png */,
 				A979F3CD165E70C8001C358E /* 114x114.png */,
@@ -98,6 +107,8 @@
 		A941C877163C3CCF00E11740 /* iPipe */ = {
 			isa = PBXGroup;
 			children = (
+				A9DE705716714B5400B622DF /* BKQuantityViewController.h */,
+				A9DE705816714B5400B622DF /* BKQuantityViewController.m */,
 				A941C880163C3CCF00E11740 /* BKAppDelegate.h */,
 				A941C881163C3CCF00E11740 /* BKAppDelegate.m */,
 				A941C889163C3CCF00E11740 /* MainStoryboard.storyboard */,
@@ -188,6 +199,8 @@
 				A979F3CE165E70C8001C358E /* 114x114.png in Resources */,
 				A979F3D1165E70DE001C358E /* 57x57.png in Resources */,
 				A902B2EA1662D27900FC713D /* iPipeBackgroung.png in Resources */,
+				A9DE70541671478500B622DF /* DumperButton.png in Resources */,
+				A9DE7056167149FF00B622DF /* iPipeBlackBackgroung.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +214,7 @@
 				A941C87E163C3CCF00E11740 /* main.m in Sources */,
 				A941C882163C3CCF00E11740 /* BKAppDelegate.m in Sources */,
 				A941C88E163C3CCF00E11740 /* BKViewController.m in Sources */,
+				A9DE705916714B5400B622DF /* BKQuantityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

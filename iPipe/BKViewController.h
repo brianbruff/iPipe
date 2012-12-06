@@ -23,6 +23,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *outA;
 @property (strong, nonatomic) IBOutlet UILabel *outS;
 @property (strong, nonatomic) IBOutlet UILabel *outL;
+@property (strong, nonatomic) IBOutlet UIButton *materialsButton;
 
 - (IBAction)DirectionChanged:(id)sender;
 - (IBAction)TextFieldEditingDidEnd:(id)sender;
