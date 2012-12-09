@@ -74,8 +74,8 @@
 }
 
 -(void) setOutputsDefaults{
-    self.outD.text = @"";
-    self.outH.text = @"";
+   // self.outD.text = @"";
+   // self.outH.text = @"";
     self.outS.text = @"";
     self.outL.text = @"";
     self.outA.text = @"";
@@ -104,8 +104,8 @@
     }
     double dDistance = distance * [self getScaleFactor:self.segDistUnit];
 
-    self.outD.text = [NSString stringWithFormat:@"%.5f",dDistance / 1000];;
-    self.outH.text = [NSString stringWithFormat:@"%.5f",dHeight / 1000];;;
+   // self.outD.text = [NSString stringWithFormat:@"%.5f",dDistance / 1000];;
+    //self.outH.text = [NSString stringWithFormat:@"%.5f",dHeight / 1000];;;
     
     // slope is height / distance
     self.outS.text = [NSString stringWithFormat:@"%.5f",dHeight / dDistance * 100];

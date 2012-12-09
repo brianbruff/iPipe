@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A902B2EA1662D27900FC713D /* iPipeBackgroung.png in Resources */ = {isa = PBXBuildFile; fileRef = A902B2E91662D27900FC713D /* iPipeBackgroung.png */; };
 		A90ECD591652E3A7007A0958 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = A90ECD571652E3A7007A0958 /* triangle.png */; };
 		A90ECD5A1652E3A7007A0958 /* triangleInverted.png in Resources */ = {isa = PBXBuildFile; fileRef = A90ECD581652E3A7007A0958 /* triangleInverted.png */; };
 		A941C872163C3CCF00E11740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A941C871163C3CCF00E11740 /* UIKit.framework */; };
@@ -25,12 +24,12 @@
 		A9A1175B16442F9D00DCEA7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A1175A16442F9D00DCEA7E /* Default@2x.png */; };
 		A9A1175D16442FA400DCEA7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A1175C16442FA400DCEA7E /* Default-568h@2x.png */; };
 		A9DE70541671478500B622DF /* DumperButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DE70531671478400B622DF /* DumperButton.png */; };
-		A9DE7056167149FF00B622DF /* iPipeBlackBackgroung.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */; };
 		A9DE705916714B5400B622DF /* BKQuantityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE705816714B5400B622DF /* BKQuantityViewController.m */; };
+		A9E5F3DB1674A3E500FA8EBB /* iPipeBlackBackgroung.png in Resources */ = {isa = PBXBuildFile; fileRef = A9E5F3DA1674A3E500FA8EBB /* iPipeBlackBackgroung.png */; };
+		A9E5F3DE1674B66500FA8EBB /* iPipeBackgroung.png in Resources */ = {isa = PBXBuildFile; fileRef = A9E5F3DD1674B66500FA8EBB /* iPipeBackgroung.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A902B2E91662D27900FC713D /* iPipeBackgroung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPipeBackgroung.png; sourceTree = "<group>"; };
 		A90ECD571652E3A7007A0958 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		A90ECD581652E3A7007A0958 /* triangleInverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleInverted.png; sourceTree = "<group>"; };
 		A941C86D163C3CCF00E11740 /* iPipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,9 +52,10 @@
 		A9A1175A16442F9D00DCEA7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		A9A1175C16442FA400DCEA7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		A9DE70531671478400B622DF /* DumperButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DumperButton.png; path = Images/DumperButton.png; sourceTree = "<group>"; };
-		A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPipeBlackBackgroung.png; path = Images/iPipeBlackBackgroung.png; sourceTree = "<group>"; };
 		A9DE705716714B5400B622DF /* BKQuantityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKQuantityViewController.h; sourceTree = "<group>"; };
 		A9DE705816714B5400B622DF /* BKQuantityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKQuantityViewController.m; sourceTree = "<group>"; };
+		A9E5F3DA1674A3E500FA8EBB /* iPipeBlackBackgroung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPipeBlackBackgroung.png; path = Images/iPipeBlackBackgroung.png; sourceTree = "<group>"; };
+		A9E5F3DD1674B66500FA8EBB /* iPipeBackgroung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPipeBackgroung.png; path = Images/iPipeBackgroung.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 		A941C862163C3CCF00E11740 = {
 			isa = PBXGroup;
 			children = (
-				A9DE7055167149FF00B622DF /* iPipeBlackBackgroung.png */,
+				A9E5F3DD1674B66500FA8EBB /* iPipeBackgroung.png */,
+				A9E5F3DA1674A3E500FA8EBB /* iPipeBlackBackgroung.png */,
 				A9DE70531671478400B622DF /* DumperButton.png */,
-				A902B2E91662D27900FC713D /* iPipeBackgroung.png */,
 				A979F3D0165E70DE001C358E /* 57x57.png */,
 				A979F3CD165E70C8001C358E /* 114x114.png */,
 				A941C877163C3CCF00E11740 /* iPipe */,
@@ -198,9 +198,9 @@
 				A90ECD5A1652E3A7007A0958 /* triangleInverted.png in Resources */,
 				A979F3CE165E70C8001C358E /* 114x114.png in Resources */,
 				A979F3D1165E70DE001C358E /* 57x57.png in Resources */,
-				A902B2EA1662D27900FC713D /* iPipeBackgroung.png in Resources */,
 				A9DE70541671478500B622DF /* DumperButton.png in Resources */,
-				A9DE7056167149FF00B622DF /* iPipeBlackBackgroung.png in Resources */,
+				A9E5F3DB1674A3E500FA8EBB /* iPipeBlackBackgroung.png in Resources */,
+				A9E5F3DE1674B66500FA8EBB /* iPipeBackgroung.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

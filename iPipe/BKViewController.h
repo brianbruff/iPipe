@@ -18,8 +18,8 @@
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segHeightUnit;
 
 // Now the output outlets
-@property (strong, nonatomic) IBOutlet UILabel *outD;
-@property (strong, nonatomic) IBOutlet UILabel *outH;
+//@property (strong, nonatomic) IBOutlet UILabel *outD;
+//@property (strong, nonatomic) IBOutlet UILabel *outH;
 @property (strong, nonatomic) IBOutlet UILabel *outA;
 @property (strong, nonatomic) IBOutlet UILabel *outS;
 @property (strong, nonatomic) IBOutlet UILabel *outL;
