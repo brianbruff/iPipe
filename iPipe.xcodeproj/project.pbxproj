@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A90ECD591652E3A7007A0958 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = A90ECD571652E3A7007A0958 /* triangle.png */; };
 		A90ECD5A1652E3A7007A0958 /* triangleInverted.png in Resources */ = {isa = PBXBuildFile; fileRef = A90ECD581652E3A7007A0958 /* triangleInverted.png */; };
+		A91EFD4816751FB200E2F0D3 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A91EFD4716751FB200E2F0D3 /* backButton.png */; };
+		A91EFD4B16751FCA00E2F0D3 /* quantityButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A91EFD4A16751FCA00E2F0D3 /* quantityButton.png */; };
 		A941C872163C3CCF00E11740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A941C871163C3CCF00E11740 /* UIKit.framework */; };
 		A941C874163C3CCF00E11740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A941C873163C3CCF00E11740 /* Foundation.framework */; };
 		A941C876163C3CCF00E11740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A941C875163C3CCF00E11740 /* CoreGraphics.framework */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		A90ECD571652E3A7007A0958 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		A90ECD581652E3A7007A0958 /* triangleInverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleInverted.png; sourceTree = "<group>"; };
+		A91EFD4716751FB200E2F0D3 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = Images/backButton.png; sourceTree = "<group>"; };
+		A91EFD4A16751FCA00E2F0D3 /* quantityButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quantityButton.png; path = Images/quantityButton.png; sourceTree = "<group>"; };
 		A941C86D163C3CCF00E11740 /* iPipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A941C871163C3CCF00E11740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A941C873163C3CCF00E11740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +79,8 @@
 		A941C862163C3CCF00E11740 = {
 			isa = PBXGroup;
 			children = (
+				A91EFD4A16751FCA00E2F0D3 /* quantityButton.png */,
+				A91EFD4716751FB200E2F0D3 /* backButton.png */,
 				A9E5F3DD1674B66500FA8EBB /* iPipeBackgroung.png */,
 				A9E5F3DA1674A3E500FA8EBB /* iPipeBlackBackgroung.png */,
 				A9DE70531671478400B622DF /* DumperButton.png */,
@@ -201,6 +207,8 @@
 				A9DE70541671478500B622DF /* DumperButton.png in Resources */,
 				A9E5F3DB1674A3E500FA8EBB /* iPipeBlackBackgroung.png in Resources */,
 				A9E5F3DE1674B66500FA8EBB /* iPipeBackgroung.png in Resources */,
+				A91EFD4816751FB200E2F0D3 /* backButton.png in Resources */,
+				A91EFD4B16751FCA00E2F0D3 /* quantityButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
