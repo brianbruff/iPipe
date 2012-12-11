@@ -29,4 +29,6 @@
 - (IBAction)TextFieldEditingDidEnd:(id)sender;
 - (IBAction)UnitChanged:(id)sender;
 
+-(double) getLenght;
+
 @end

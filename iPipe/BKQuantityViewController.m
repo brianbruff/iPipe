@@ -7,6 +7,8 @@
 //
 
 #import "BKQuantityViewController.h"
+#import "BKViewController.h"
+
 
 @interface BKQuantityViewController ()
 
@@ -27,6 +29,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    BKViewController* parent = (BKViewController*)self.presentingViewController;
+    double length = [parent getLenght];
+    self.lbLength.text = [NSString stringWithFormat:@"%.2f", length];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,7 +41,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.txtDensityFactor resignFirstResponder];
+    [self.txtHeight resignFirstResponder];
+    [self.txtWidth resignFirstResponder];
+}
+
 - (IBAction)OnBackClicked:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)txtChanged:(id)sender {
+    
+    // Volumn calculation
+    double width = [self.txtWidth.text intValue] / 100;
+    double height = [self.txtHeight.text intValue] / 100;
+    
+    double lenght = [self.lbLength.text doubleValue];
+    
+    double volumn = width * height * lenght;
+    double weight = volumn * [self.txtDensityFactor.text doubleValue];
+    
+    self.lblMetricTonne.text = [NSString stringWithFormat:@"%.2f", weight];
+    
 }
 @end

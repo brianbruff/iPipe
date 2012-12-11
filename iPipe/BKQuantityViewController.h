@@ -11,4 +11,10 @@
 @interface BKQuantityViewController : UIViewController
 - (IBAction)OnBackClicked:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UITextField *txtWidth;
+@property (strong, nonatomic) IBOutlet UITextField *txtHeight;
+@property (strong, nonatomic) IBOutlet UITextField *txtDensityFactor;
+@property (strong, nonatomic) IBOutlet UILabel *lblMetricTonne;
+@property (strong, nonatomic) IBOutlet UILabel *lbLength;
+- (IBAction)txtChanged:(id)sender;
 @end

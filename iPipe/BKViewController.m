@@ -104,8 +104,6 @@
     }
     double dDistance = distance * [self getScaleFactor:self.segDistUnit];
 
-   // self.outD.text = [NSString stringWithFormat:@"%.5f",dDistance / 1000];;
-    //self.outH.text = [NSString stringWithFormat:@"%.5f",dHeight / 1000];;;
     
     // slope is height / distance
     self.outS.text = [NSString stringWithFormat:@"%.5f",dHeight / dDistance * 100];
@@ -133,6 +131,10 @@
         factor = 1000;
     
     return factor;
+}
+
+-(double) getLenght{
+    return [self.outL.text doubleValue];
 }
 
 @end
