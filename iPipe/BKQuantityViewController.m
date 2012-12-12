@@ -54,8 +54,8 @@
 - (IBAction)txtChanged:(id)sender {
     
     // Volumn calculation
-    double width = [self.txtWidth.text intValue] / 100;
-    double height = [self.txtHeight.text intValue] / 100;
+    double width = [self.txtWidth.text doubleValue] / 100;
+    double height = [self.txtHeight.text doubleValue] / 100;
     
     double lenght = [self.lbLength.text doubleValue];
     
