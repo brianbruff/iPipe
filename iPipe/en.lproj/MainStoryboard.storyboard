@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="2" customClass="BKViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iPipeBackgroung.png" translatesAutoresizingMaskIntoConstraints="NO" id="tUJ-o4-SKR">
@@ -237,7 +237,7 @@
             <objects>
                 <viewController id="aCU-4Y-pLe" customClass="BKQuantityViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="421-1R-K3r">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iPipeBlackBackgroung.png" translatesAutoresizingMaskIntoConstraints="NO" id="JTn-J0-0LU">
@@ -326,7 +326,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="(cm)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5m-Bl-YGp">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="dbu-V7-cY8"/>
+                                    <constraint firstAttribute="height" constant="21" type="user" id="dbu-V7-cY8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.90980398650000005" green="0.5411764979" blue="0.44313728810000003" alpha="1" colorSpace="deviceRGB"/>
@@ -395,7 +395,6 @@
                         <constraints>
                             <constraint firstItem="ISR-4p-FWz" firstAttribute="leading" secondItem="421-1R-K3r" secondAttribute="leading" constant="64" id="4ey-BC-EbY"/>
                             <constraint firstItem="8L3-qC-Zbn" firstAttribute="top" secondItem="421-1R-K3r" secondAttribute="top" constant="346" type="user" id="8mG-ci-6el"/>
-                            <constraint firstAttribute="bottom" secondItem="r5m-Bl-YGp" secondAttribute="bottom" constant="130" id="AfO-5Z-14F"/>
                             <constraint firstItem="RqJ-SV-D6w" firstAttribute="leading" secondItem="OEj-U0-UXd" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="BI5-4K-7AF"/>
                             <constraint firstItem="uD3-cW-yJE" firstAttribute="leading" secondItem="421-1R-K3r" secondAttribute="leading" constant="122" id="CZU-nH-oR0"/>
                             <constraint firstItem="fAi-VY-aXZ" firstAttribute="top" secondItem="421-1R-K3r" secondAttribute="top" constant="298" type="user" id="EbN-WE-yk0"/>
@@ -421,6 +420,7 @@
                             <constraint firstItem="8L3-qC-Zbn" firstAttribute="trailing" secondItem="S0H-Be-F9b" secondAttribute="trailing" type="default" id="ft1-xS-6lR"/>
                             <constraint firstItem="SiO-HV-soG" firstAttribute="leading" secondItem="421-1R-K3r" secondAttribute="leading" constant="56" id="g9x-gZ-mWB"/>
                             <constraint firstItem="fS2-As-ewo" firstAttribute="leading" secondItem="421-1R-K3r" secondAttribute="leading" constant="12" type="user" id="gfF-JI-kid"/>
+                            <constraint firstItem="r5m-Bl-YGp" firstAttribute="top" secondItem="421-1R-K3r" secondAttribute="top" constant="309" type="user" id="hET-Rq-ejD"/>
                             <constraint firstItem="Mdx-0f-RYJ" firstAttribute="leading" secondItem="fS2-As-ewo" secondAttribute="leading" type="user" id="kFL-0R-Suf"/>
                             <constraint firstItem="uD3-cW-yJE" firstAttribute="bottom" secondItem="8L3-qC-Zbn" secondAttribute="bottom" type="user" id="kqi-vz-bQo"/>
                             <constraint firstItem="Hfq-Vh-Inf" firstAttribute="leading" secondItem="IaG-8v-dIS" secondAttribute="leading" type="default" id="lmI-gL-ObJ"/>
@@ -497,6 +497,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
